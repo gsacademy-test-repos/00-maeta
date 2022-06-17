@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+}
+
+main .my-hobby{
+    box-sizing: content-box;
+}
+
+.my-hobby li{
+    list-style: none;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.my-hobby  li{
+    float: left;
+    padding: 10px 20px ;
+}
+
+.my-hobby li:hover{
+    font-size: 40px;
+}
+
+.my-hobby span{
+    padding-bottom: 100px;
+    vertical-align: middle;
+}
