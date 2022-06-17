@@ -1,0 +1,136 @@
+@import url(bootstrap.min.css);
+
+/* body,
+pre {
+  font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, sans-serif;
+}
+header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: #7CA4D7
+}
+header h1 {
+  font-size: 50%;
+  margin-top: 30px;
+}
+header h1 span {
+  display: block;
+}
+main {
+  margin-left: 300px;
+  padding: 30px;
+}
+main h2 {
+  font-size: 200%;
+  text-shadow: 1px 1px 3px #999;
+}
+main h2 img {
+  height: 1em;
+}
+pre {
+  min-height: 100px;
+  padding: 10px;
+  background-color: #e3f2ff;
+  box-shadow: 1px 1px 5px #eee;
+  width: 50px;
+}
+hr {
+  border-color: #7CA4D7;
+}
+.content {
+  margin-top: 30px;
+}
+form {
+  margin-top: 50px;
+}
+time {
+  color: #999;
+  font-size: 80%;
+}
+article {
+  margin-top: 30px;
+}
+.test1{
+  color:rgb(18, 170, 38);
+} */
+
+body{
+  text-align: center;
+  margin: 10px 30px 0 30px;
+}
+
+.my-hobby li a{
+  image-rendering: ;
+}
+.my-hobby li{
+  float: left;
+}
+
+h1{
+  font-size: 70px;
+}
+.a{
+  color: rgb(30, 153, 210);
+  background: pink;
+}
+.b{
+  color: rgb(248, 232, 14);
+}
+#c{
+  color: crimson;
+}
+.d{
+  background-image: url(/Gs/LAB_01_HTML/img/sea-image.jpg);
+
+  /* 背景画像を使用するには高さが指定されていないと表示されない */
+  height: 300px;
+
+  /* 画像がたくさん表示されないようにする */
+  background-repeat: no-repeat; 
+
+  /* 画像の位置を指定する */
+  background-position: center center;
+  
+  /* 画像の大きさを指定する */
+  background-size: cover;  
+}
+
+  /* まとめて指定する(ショートハンド) */
+/* .d{
+  background: url("../img/sea-image.jpg") no-repeat center center;
+  background-size: cover;
+} */
+
+header nav ul{
+  list-style: none;
+  display: flex;
+}
+
+.nav:hover{
+  font-style: italic;
+  font-size: 20px;
+  color: brown;
+}
+
+header nav ul li{
+  /* float: left; */
+  margin: 0 10px 0 10px;
+  color: black;
+}
+header nav ul a{
+  text-decoration: none;
+}
+
+nav ul .clear{
+  clear: left;
+}
+
+@media(max-width: 500px){
+.self_intro{
+  width: 70%;
+}
+}
